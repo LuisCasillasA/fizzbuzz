@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LuisCasillasA/fizzbuzz/issues"
   },
-  "homepage": "https://github.com/LuisCasillasA/fizzbuzz#readme"
+  "homepage": "https://github.com/LuisCasillasA/fizzbuzz#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
