@@ -16,10 +16,10 @@ const explorer1 = {name: "Explorer1", score: 1}
 FizzBuzzService.applyValidationInExplorer(explorer1) // {name: "Explorer1", score: 1, trick: 1} 
 
 const explorer3 = {name: "Explorer3", score: 3}
-console.log(FizzBuzzService.applyValidationInExplorer(explorer3)) // {name: "Explorer3", score: 3, trick: "FIZZ"}
+FizzBuzzService.applyValidationInExplorer(explorer3) // {name: "Explorer3", score: 3, trick: "FIZZ"}
 
 const explorer5 = {name: "Explorer5", score: 5}
-console.log(FizzBuzzService.applyValidationInExplorer(explorer5)) // {name: "Explorer5", score: 5, trick: "BUZZ"}
+FizzBuzzService.applyValidationInExplorer(explorer5) // {name: "Explorer5", score: 5, trick: "BUZZ"}
 
 const explorer15 = {name: "Explorer15", score: 15}
-console.log(FizzBuzzService.applyValidationInExplorer(explorer15)) // {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
+FizzBuzzService.applyValidationInExplorer(explorer15) // {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
