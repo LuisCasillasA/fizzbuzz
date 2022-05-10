@@ -30,4 +30,8 @@ describe("Unit test for ExplorerController", () =>{
         const trick = FizzBuzzService.applyValidationInNumber(15);
         expect(trick).toBe("FIZZBUZZ");
     });
+    test("8. Get explorers by stack",() =>{
+        const explorers = ExplorerController.getExplorersByStack("javascript");
+        expect(explorers.length).toBe(11);
+    });
 });
