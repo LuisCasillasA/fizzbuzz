@@ -1,5 +1,5 @@
 const ExplorerController = require("./../../lib/controllers/ExplorerController");
-const FizzBuzzService = require('./../../lib/services/FizzBuzzService')
+const FizzBuzzService = require("./../../lib/services/FizzBuzzService");
 
 describe("Unit test for ExplorerController", () =>{
     test("1. Get all explorers in mission", () =>{
