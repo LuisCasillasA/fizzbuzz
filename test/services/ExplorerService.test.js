@@ -4,7 +4,7 @@ describe('Unit test for ExplorerService', () =>{
     test('1. Get all explorers in mission', () =>{
         const explorer = [{mission: 'node'}]
         const explorersInNode = ExplorerService.filterByMission(explorer, 'node')
-        expect(explorersInNode.length).toBe(7)
+        expect(explorersInNode.length).toBe(1)
     });
     test('2. Get amount explorers in mission', () =>{
         const explorer = [{mission: 'node'}]
