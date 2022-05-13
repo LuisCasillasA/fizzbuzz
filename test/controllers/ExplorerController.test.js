@@ -34,4 +34,8 @@ describe("Unit test for ExplorerController", () =>{
         const explorers = ExplorerController.getExplorersByStack("javascript");
         expect(explorers.length).toBe(11);
     });
+    test("9. Get string with explorers names",() =>{
+        const explorers = ExplorerController.getNamesExplorersInMission("javascript");
+        expect(typeof explorers).toBe("string");
+    });
 });
